@@ -21,6 +21,8 @@
 		F2535F102A7069F900BA2150 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535F0F2A7069F900BA2150 /* ContactTableViewCell.swift */; };
 		F2535F152A707A8200BA2150 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535F142A707A8200BA2150 /* PickerViewController.swift */; };
 		F2535F172A707A9200BA2150 /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2535F162A707A9200BA2150 /* PickerViewController.storyboard */; };
+		F286345E2A70F25C008C3831 /* ContactsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F286345C2A70F25C008C3831 /* ContactsCollectionViewCell.swift */; };
+		F286345F2A70F25C008C3831 /* ContactsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F286345D2A70F25C008C3831 /* ContactsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		F2535F0F2A7069F900BA2150 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		F2535F142A707A8200BA2150 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		F2535F162A707A9200BA2150 /* PickerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerViewController.storyboard; sourceTree = "<group>"; };
+		F286345C2A70F25C008C3831 /* ContactsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F286345D2A70F25C008C3831 /* ContactsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		F2535F072A70651E00BA2150 /* ContactDetailView */ = {
 			isa = PBXGroup;
 			children = (
+				F28634572A70F1C6008C3831 /* ContactCollectionView */,
 				F2535F082A70654800BA2150 /* ContactDetailViewController.swift */,
 				F2535F0A2A70655300BA2150 /* ContactDetailViewController.storyboard */,
 			);
@@ -121,6 +126,15 @@
 				F2535F162A707A9200BA2150 /* PickerViewController.storyboard */,
 			);
 			path = PickerView;
+			sourceTree = "<group>";
+		};
+		F28634572A70F1C6008C3831 /* ContactCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F286345C2A70F25C008C3831 /* ContactsCollectionViewCell.swift */,
+				F286345D2A70F25C008C3831 /* ContactsCollectionViewCell.xib */,
+			);
+			path = ContactCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +198,7 @@
 				F2535F042A705C6800BA2150 /* ContactViewController.storyboard in Resources */,
 				F2535F0B2A70655300BA2150 /* ContactDetailViewController.storyboard in Resources */,
 				F2535EF52A7055D600BA2150 /* LaunchScreen.storyboard in Resources */,
+				F286345F2A70F25C008C3831 /* ContactsCollectionViewCell.xib in Resources */,
 				F2535F172A707A9200BA2150 /* PickerViewController.storyboard in Resources */,
 				F2535EF22A7055D600BA2150 /* Assets.xcassets in Resources */,
 				F2535EF02A7055D500BA2150 /* Main.storyboard in Resources */,
@@ -202,6 +217,7 @@
 				F2535F152A707A8200BA2150 /* PickerViewController.swift in Sources */,
 				F2535EE92A7055D500BA2150 /* AppDelegate.swift in Sources */,
 				F2535EEB2A7055D500BA2150 /* SceneDelegate.swift in Sources */,
+				F286345E2A70F25C008C3831 /* ContactsCollectionViewCell.swift in Sources */,
 				F2535F102A7069F900BA2150 /* ContactTableViewCell.swift in Sources */,
 				F2535F092A70654800BA2150 /* ContactDetailViewController.swift in Sources */,
 				F2535F062A705C7C00BA2150 /* ContactViewController.swift in Sources */,

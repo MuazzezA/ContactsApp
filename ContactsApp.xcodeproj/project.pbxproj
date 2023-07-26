@@ -13,6 +13,14 @@
 		F2535EF02A7055D500BA2150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2535EEE2A7055D500BA2150 /* Main.storyboard */; };
 		F2535EF22A7055D600BA2150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2535EF12A7055D600BA2150 /* Assets.xcassets */; };
 		F2535EF52A7055D600BA2150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2535EF32A7055D600BA2150 /* LaunchScreen.storyboard */; };
+		F2535EFD2A70567400BA2150 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535EFC2A70567400BA2150 /* Contacts.swift */; };
+		F2535F042A705C6800BA2150 /* ContactViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2535F032A705C6800BA2150 /* ContactViewController.storyboard */; };
+		F2535F062A705C7C00BA2150 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535F052A705C7C00BA2150 /* ContactViewController.swift */; };
+		F2535F092A70654800BA2150 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535F082A70654800BA2150 /* ContactDetailViewController.swift */; };
+		F2535F0B2A70655300BA2150 /* ContactDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2535F0A2A70655300BA2150 /* ContactDetailViewController.storyboard */; };
+		F2535F102A7069F900BA2150 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535F0F2A7069F900BA2150 /* ContactTableViewCell.swift */; };
+		F2535F152A707A8200BA2150 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2535F142A707A8200BA2150 /* PickerViewController.swift */; };
+		F2535F172A707A9200BA2150 /* PickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2535F162A707A9200BA2150 /* PickerViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		F2535EF12A7055D600BA2150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2535EF42A7055D600BA2150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2535EF62A7055D600BA2150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2535EFC2A70567400BA2150 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		F2535F032A705C6800BA2150 /* ContactViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ContactViewController.storyboard; path = ../../../../ContactViewController.storyboard; sourceTree = "<group>"; };
+		F2535F052A705C7C00BA2150 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		F2535F082A70654800BA2150 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		F2535F0A2A70655300BA2150 /* ContactDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactDetailViewController.storyboard; sourceTree = "<group>"; };
+		F2535F0F2A7069F900BA2150 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		F2535F142A707A8200BA2150 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		F2535F162A707A9200BA2150 /* PickerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,55 @@
 		F2535EE72A7055D500BA2150 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2535F072A70651E00BA2150 /* ContactDetailView */,
+				F2535EFE2A705B7400BA2150 /* ContactView */,
 				F2535EE82A7055D500BA2150 /* AppDelegate.swift */,
 				F2535EEA2A7055D500BA2150 /* SceneDelegate.swift */,
 				F2535EEC2A7055D500BA2150 /* ViewController.swift */,
 				F2535EEE2A7055D500BA2150 /* Main.storyboard */,
+				F2535EFC2A70567400BA2150 /* Contacts.swift */,
 				F2535EF12A7055D600BA2150 /* Assets.xcassets */,
 				F2535EF32A7055D600BA2150 /* LaunchScreen.storyboard */,
 				F2535EF62A7055D600BA2150 /* Info.plist */,
 			);
 			path = ContactsApp;
+			sourceTree = "<group>";
+		};
+		F2535EFE2A705B7400BA2150 /* ContactView */ = {
+			isa = PBXGroup;
+			children = (
+				F2535F112A707A1100BA2150 /* PickerView */,
+				F2535F0C2A7069A900BA2150 /* ContactViewCell */,
+				F2535F032A705C6800BA2150 /* ContactViewController.storyboard */,
+				F2535F052A705C7C00BA2150 /* ContactViewController.swift */,
+			);
+			path = ContactView;
+			sourceTree = "<group>";
+		};
+		F2535F072A70651E00BA2150 /* ContactDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				F2535F082A70654800BA2150 /* ContactDetailViewController.swift */,
+				F2535F0A2A70655300BA2150 /* ContactDetailViewController.storyboard */,
+			);
+			path = ContactDetailView;
+			sourceTree = "<group>";
+		};
+		F2535F0C2A7069A900BA2150 /* ContactViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2535F0F2A7069F900BA2150 /* ContactTableViewCell.swift */,
+			);
+			path = ContactViewCell;
+			sourceTree = "<group>";
+		};
+		F2535F112A707A1100BA2150 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F2535F142A707A8200BA2150 /* PickerViewController.swift */,
+				F2535F162A707A9200BA2150 /* PickerViewController.storyboard */,
+			);
+			path = PickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +181,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2535F042A705C6800BA2150 /* ContactViewController.storyboard in Resources */,
+				F2535F0B2A70655300BA2150 /* ContactDetailViewController.storyboard in Resources */,
 				F2535EF52A7055D600BA2150 /* LaunchScreen.storyboard in Resources */,
+				F2535F172A707A9200BA2150 /* PickerViewController.storyboard in Resources */,
 				F2535EF22A7055D600BA2150 /* Assets.xcassets in Resources */,
 				F2535EF02A7055D500BA2150 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2535EFD2A70567400BA2150 /* Contacts.swift in Sources */,
 				F2535EED2A7055D500BA2150 /* ViewController.swift in Sources */,
+				F2535F152A707A8200BA2150 /* PickerViewController.swift in Sources */,
 				F2535EE92A7055D500BA2150 /* AppDelegate.swift in Sources */,
 				F2535EEB2A7055D500BA2150 /* SceneDelegate.swift in Sources */,
+				F2535F102A7069F900BA2150 /* ContactTableViewCell.swift in Sources */,
+				F2535F092A70654800BA2150 /* ContactDetailViewController.swift in Sources */,
+				F2535F062A705C7C00BA2150 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
